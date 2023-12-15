@@ -9,7 +9,6 @@ export default function createHomePage(){
     const img = document.createElement('img');
     img.classList.add('backgroundImage');
     img.src = "https://images.pexels.com/photos/687824/pexels-photo-687824.jpeg?auto=compress&cs=tinysrgb&w=600";
-    img.style.height = 'auto';
 
     homePage.appendChild(img);
 
